@@ -1,0 +1,30 @@
+{
+  "keywordFileContentHash": "39F8BC89C7EEF1A3F089510D81D5CD88",
+  "keywordClasses": [
+    {
+      "name": "customKeywords.ViewProduct",
+      "keywordMethods": [
+        {
+          "name": "product",
+          "parameters": [
+            {
+              "name": "obj",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "com.kms.katalon.core.testobject.TestObject",
+                "unresolvedClassName": "TestObject",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

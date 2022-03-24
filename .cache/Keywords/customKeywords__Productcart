@@ -1,0 +1,15 @@
+{
+  "keywordFileContentHash": "3D8322DCBFB54505000D4CAF998F9375",
+  "keywordClasses": [
+    {
+      "name": "customKeywords.Productcart",
+      "keywordMethods": [
+        {
+          "name": "viewProduct",
+          "parameters": []
+        }
+      ]
+    }
+  ],
+  "javadocParsed": false
+}
