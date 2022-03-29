@@ -53,4 +53,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Remove from cart</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>c063fb39-1b91-4a72-85b4-1b2e6dc38f04</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/purchase</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
