@@ -19,5 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 CustomKeywords.'customKeywords.UserLogin.login'('jilu', 'jilu')
 
+WebUI.click(findTestObject('UserAccountPage/label_Log out'))
+
 WebUI.closeBrowser()
 
