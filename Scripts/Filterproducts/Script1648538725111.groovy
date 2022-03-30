@@ -19,27 +19,25 @@ import org.openqa.selenium.Keys as Keys
 
 CustomKeywords.'customKeywords.UserLogin.login'('jilu', 'jilu')
 
-productname = CustomKeywords.'customKeywords.ViewProduct.product'(findTestObject('UserAccountPage/label_titleHTC One'))
+WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.PAGE_DOWN))
 
-WebUI.click(findTestObject('ProductDetail/button_Add to cart'))
+WebUI.click(findTestObject('HomePage/label_Laptops'))
 
-if (WebUI.waitForAlert(2)) {
-    String alert = WebUI.getAlertText()
+WebUI.delay(2)
 
-    WebUI.verifyMatch(alert, 'Product added.', false)
+WebUI.verifyElementPresent(findTestObject('UserAccountPage/label_titleDell i7'), 2)
 
-    WebUI.acceptAlert()
-}
+WebUI.click(findTestObject('HomePage/label_Monitors'))
 
-WebUI.delay(3)
+WebUI.delay(2)
 
-WebUI.click(findTestObject('ProductDetail/label_cart'))
+WebUI.verifyElementPresent(findTestObject('UserAccountPage/label_titleAsus'), 2)
 
-WebUI.delay(5)
+WebUI.click(findTestObject('HomePage/label_Phones'))
 
-WebUI.verifyElementText(findTestObject('CartPage/label_productname'), productname)
+WebUI.delay(2)
 
-WebUI.takeScreenshot(('C:/Users/jilus/Katalon Studio/TestProject/Reports/screenshots/cart_' + productname) + '.png')
+WebUI.verifyElementPresent(findTestObject('UserAccountPage/label_titleHTC One'), 2)
 
 WebUI.closeBrowser()
 

@@ -57,7 +57,7 @@ String[] full_text = text.readLines()
 WebUI.verifyMatch(full_text[1], 'Amount: 320 USD', true, FailureHandling.STOP_ON_FAILURE)
 WebUI.verifyMatch(full_text[2], 'Card Number: 234567', true, FailureHandling.STOP_ON_FAILURE)
 WebUI.verifyMatch(full_text[3], 'Name: Jilu', true, FailureHandling.STOP_ON_FAILURE)
-WebUI.verifyMatch(full_text[4], 'Date: 29/2/2022', true, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyMatch(full_text[4], 'Date: 30/2/2022', true, FailureHandling.STOP_ON_FAILURE)
 
 //takes the first line
 String idtxt = full_text[0]
